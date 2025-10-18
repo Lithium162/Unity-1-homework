@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-4947621749573705375
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u54ED_03_{-4947621749573705375}"
+  m_AudioClip: {fileID: 8300000, guid: 8ff027c055df7db489474dc8a0918729, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1091928123593741592
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u6211\u662F\u8BF4\u4E50\u961F_{1091928123593741592}"
+  m_AudioClip: {fileID: 8300000, guid: f8f99925a3635434fbb5ac310108e2c4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3773895905936096290
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u8FD9\u662F\u5F53\u7136\u7684_{3773895905936096290}"
+  m_AudioClip: {fileID: 8300000, guid: 808ca70383ccdde4db73c7f595f966cc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Audio Random Container
+  m_Volume: -2
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 5
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 5}
+  m_Elements:
+  - {fileID: 7292724668686162182}
+  - {fileID: 7749495684601065637}
+  - {fileID: 3773895905936096290}
+  - {fileID: -4947621749573705375}
+  - {fileID: 1091928123593741592}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 1
+--- !u!1233149941 &7292724668686162182
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u4E00\u8D77\u7EC4\u4E50\u961F\u5427_{7292724668686162182}"
+  m_AudioClip: {fileID: 8300000, guid: d5201c04ee1e7eb47b32af7cbd31bcf3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7749495684601065637
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u54ED_03_{7749495684601065637}"
+  m_AudioClip: {fileID: 8300000, guid: 8ff027c055df7db489474dc8a0918729, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
